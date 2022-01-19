@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <!-- NaveBar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container">
+          
+        <!-- <a class="navbar-brand" href="#">ProX NavBar</a> -->
+        <h3 class="text-warning">ProX</h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active"  aria-current="page" href="./login2.html"
+                >Login</a
+              ></li>
+
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              ></li>
+
+               <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#instructors"
+                >Courses</a
+              ></li>
+               <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#instructors"
+                >Instructors</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./review.html"
+                >Student Review</a
+              >
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#footer"
+                >Contact Us</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./login2.html"
+                >Logout</a
+              >
+            </li>
+
+            
+           
+          </ul>
+          </div>
+         
+    </nav>
+    <!-- End Navebar -->
+
+
+        <!-- Main Body -->
+        <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning"> Web Developer </span></h1>
+            <p class="lead my-4">
+              We focus on teaching our students the fundamentals of the latest
+              and greatest technologies to prepare them for their first dream role
+            </p>
+            <a href="./login2.html"><button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Start The Enrollment
+            </button></a>
+            
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="./Images/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End Main Body -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Treanding Courses</h3>
+                <p class="card-text">
+                 The Student of the future will demand the learning support that is appropriate sor their situation or context. Nothing more, nothing less.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Certification</h3>
+                <p class="card-text">
+                  Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-play-circle-fill"></i>
+                </div>
+                <h3 class="card-title mb-3">Free Trails</h3>
+                <p class="card-text">
+                 Advanced Programming Course<br>
+                Ba True Master of the Programming Language - Apply for Real Time or Embedded Jobs or contracts!
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+
+
+
+    <!-- Learn Seaction -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="./Images/31-312238_html-css-javascript-transparent.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+             Winners don’t just learn the fundamentals, they master them. You have to monitor your fundamentals constantly because the only thing that changes will be your attention to them.
+            </p>
+            <p>
+             There are no new fundamentals. You've got to be a little suspicious of someone who says,
+              "I've got a new fundamental." That's like someone inviting you to tour a factory where they are manufacturing antiques.
+            </p>
+            <a href="#" class="btn btn-dark mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2 class="text-warning">Learn Trending Technologies</h2>
+            <p class="lead">
+              Technology can be termed as the one medium that is replacing human availability in Industries and all aspects with Mechanical and electronic devices.
+            </p>
+            <p>
+              Technology has made everyone feel the need for it. Someway or the other, everyone is using Technology nowadays. The technology works as a substitute for human employees in terms of mechanical and electronic equipment.
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="./Images/what-is-a-hacker-what-is-hacking-featured-800x400.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Learn Seaction -->
+
+    <!-- instructors -->
+     <section id="instructors" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-warning">Our Community Experts</h2>
+        <p class="lead text-center text-white mb-5">
+          Our instructors all have <span class="text-warning" style="font-weight: 400;">5+</span>  years working experience in IT field.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/33.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">John Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                </p>
+                <a href="./course/project-ds.html"><button type="button" class="btn btn-primary mt-2">Explore</button><br></a>
+                
+                <!-- <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>  -->
+            
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/79.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Amber Johnston</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                </p>
+                <a href="./course/project-db.html"><button type="button" class="btn btn-primary mt-2">Explore</button></a>
+                <br>
+                <!-- <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/12.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Brian Newman</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                </p>
+                <a href="./course/project-jv.html"><button type="button" class="btn btn-primary mt-2">Explore</button></a>
+                <br>
+                <!-- <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/12.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Gloria Bowman</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                </p>
+                <a href="./course/project-py.html"><button type="button" class="btn btn-primary mt-2">Explore</button><br></a>
+                
+                <!-- <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- instructors -->
+
+
+
+
+
+
+
+
+    <!-- FAQ -->
+      <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                What technology requirements must online students meet? What if they do not meet them?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+               Technical requirements vary from one online degree program to the next, but most students need at minimum high-speed Internet access, a keyboard, and a computer capable of running specified online learning software. Courses using identity verification tools and voice- or web-conferencing software require webcams and microphones. Scanners and printers help, too. While online schools increasingly offer mobile apps for learning on-the-go, smartphones and tablets alone may not be sufficient.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Our team of committed tutors are ready to do their best and bring out the best in your child in these challenging times. We have worked hard to make sure that these online sessions will be as effective as our physical sessions. So parents, don't compromise on your child's education. Do not limit your child's potential by using recorded classes.Why compromise for a non interactive group coaching when they can enjoy a fully interactive and engaging session.Let your child learn in the safety of your house like before with <span class="text-warning">ProX</span>, the most trusted organization in one to one coaching.
+
+Feel free to contact us
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                What do I need to Know?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                1. Treat an online course like a “real” course.<br>
+                2. Hold yourself accountable <br>
+                3. Practice time management. <br>
+                4. Create a regular study space and stay organized. <br>
+                5. Eliminate distractions. <br>
+                6. Figure Out How You Learn Best <br>
+                7. Actively participate. <br>
+                8. Leverage your network. <br>
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                Do employers accept online degrees?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                All new learning innovations are met with some degree of scrutiny, but skepticism subsides as methods become more mainstream. Such is the case for online learning. Studies indicate employers who are familiar with online degrees tend to view them more favorably, and more employers are acquainted with them than ever before. The majority of colleges now offer online degrees, including most public, not-for-profit, and Ivy League universities. Online learning is also increasingly prevalent in the workplace as more companies invest in web-based employee training and development programs.
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                Do you help me find a job?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                When looking for a job, you may consider hiring a professional to assist you with your search. Recruiters and headhunters may seem like an attractive option for several reasons. In a recruitment setting, discussion about compensation can happen immediately, as opposed to the typical job interview process in which salary negotiation is often done at the very last stage.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ -->
+
+
+    <!-- Contact Us -->
+
+
+   <!-- footer -->
+        <footer>
+            <div class="container-fluid" id="footer">
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+            
+            <div class="col-md-3 pt-4">
+               <h5 class="pb-2">Follow Us On</h5>
+                <h5> <a href="https://www.linkedin.com/login" target="_blank"> <i class="fab fa-linkedin-in"></i></a> 
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a> 
+                    <a href="https://github.com/" target="_blank"> <i class="fab fa-github"></i></a> 
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> </h5>
+
+               
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Important Links</h5>
+                <p>
+                    <a href="./index.html" class="link-light  text-decoration-none">Home</a><br>
+                    <a href="#" class="link-light  text-decoration-none">Courses</a><br>
+                    <a href="#instructors" class="link-light  text-decoration-none">Instructors</a><br>
+                    <a href="./review.html" class="link-light  text-decoration-none">Student Review</a><br>
+                   
+                </p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Contact Us</h5>
+                <p class="text-primary"> Our Team Members<br>
+                  <span class="text-warning">Sagar Mooley</span> <br>
+                  <span class="text-warning">Samarth Patil</span> <br>
+                  <span class="text-warning">Sangapal gadhi</span> <br>
+                    
+                    <i class="bi bi-telephone"></i> : 987-778-8542 <br>
+                    <span><i class="bi bi-envelope"></i> : samarth123@gmail.com</span>
+                   </p>
+            </div>
+        </div>
+
+
+
+        <!-- copyrigt -->
+        <div class="row bg-secondary text-white text-center">
+            <div class="col-12">
+                <p>Copyright by <span class="text-warning">SSS</span> All Right Reserved</p>
+            </div>
+        </div>
+
+
+        <!-- container end -->
+    </div>
+    </div>
+    </footer>
+
+    <!-- Contact Us -->
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    
+
+   
+  </body>
+</html>
